@@ -5,6 +5,8 @@ This is a slight repackaging of the awesome https://github.com/pgorczak/srslte-d
 
 Note that the dummyue container (i.e. a simulated LTE UE/phone) has no other network interface (I am using network_mode=none) in order to make sure the network used is the LTE one. One can use docker API to perform command within the container (i.e docker exec -it dummyue COMMAND).
 
+[![Build Status](https://travis-ci.org/ravens/docker-dummyran.svg?branch=master)](https://travis-ci.org/ravens/docker-dummyran)
+
 ## configuration
 
 You may want to change the following variables in the docker-compose.yml : 
